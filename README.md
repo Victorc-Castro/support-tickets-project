@@ -53,6 +53,8 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 - JavaScript (ES6+)
 - GIT E Github
 
+## 🛠️ Processo de construção do projeto
+Você pode visualizar todo o processo de construção do projeto através [desse link](https://www.notion.so/Documenta-o-do-projeto-Tickets-26246e0e5f80801686afcc716e0e9810?source=copy_link).
+
 ## 🏷️ Layout
 Você pode visualizar o layout do projeto através [desse link](https://efficient-sloth-d85.notion.site/API-de-ticket-de-suporte-25654d26e5704936a5da1b3083f03c27).
-É necessário ter uma conta no [Figma](https://www.figma.com).
