@@ -1,0 +1,165 @@
+type: collection.insomnia.rest/5.0
+name: Support Tickets
+meta:
+  id: wrk_83a97bf6fec442a5930e1e3c776ae01a
+  created: 1756913129114
+  modified: 1756913129114
+  description: ""
+collection:
+  - url: http://localhost:3333/tickets
+    name: Create
+    meta:
+      id: req_c915dd068f9a4206a9f0bf991f840339
+      created: 1756913160972
+      modified: 1759165518301
+      isPrivate: false
+      description: ""
+      sortKey: -1756913160973
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"equipament": "Notebook",
+        	"description": "Não está carregando",
+        	"user_name": "William Castro"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/tickets
+    name: Index
+    meta:
+      id: req_d60460b8b1934516b0affbe716c4d482
+      created: 1758682420862
+      modified: 1759166705728
+      isPrivate: false
+      description: ""
+      sortKey: -1758682420862
+    method: GET
+    parameters:
+      - id: pair_a369b3f24cce43f2bed7d5fa3fdf5251
+        name: status
+        value: closed
+        description: ""
+        disabled: true
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/tickets/b991f8d9-d568-4131-a578-93229c5212c6
+    name: Update
+    meta:
+      id: req_539d7e6b086d495b87ecf146d381de02
+      created: 1758943100596
+      modified: 1758948280952
+      isPrivate: false
+      description: ""
+      sortKey: -1758943100596
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"equipament": "Monitor",
+        	"description": "Monitor consertado"
+        }
+    parameters:
+      - id: pair_f0c70ff2b2164c9796592f22361b9df4
+        name: ""
+        value: ""
+        description: ""
+        disabled: false
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/tickets/ccc0d3b5-ad0a-4b1c-9ab8-4c1e94fbdbc5/close
+    name: Close
+    meta:
+      id: req_ebc31c3a7d69428790eda5bb410a2128
+      created: 1759163918263
+      modified: 1759165605391
+      isPrivate: false
+      description: ""
+      sortKey: -1759163918263
+    method: PATCH
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"solution": "A bateria foi trocada, resolvendo o problema."
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/tickets/b991f8d9-d568-4131-a578-93229c5212c6
+    name: Remove
+    meta:
+      id: req_29a18578a55340678dbc9a26b069d5fa
+      created: 1759166017168
+      modified: 1759166959383
+      isPrivate: false
+      description: ""
+      sortKey: -1759166017168
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_3ee12a66eb145cebb9f594ceda04efb1854177f6
+    created: 1756913129119
+    modified: 1756913129119
+environments:
+  name: Base Environment
+  meta:
+    id: env_3ee12a66eb145cebb9f594ceda04efb1854177f6
+    created: 1756913129117
+    modified: 1756913129117
+    isPrivate: false
