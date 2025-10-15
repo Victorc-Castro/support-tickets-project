@@ -46,13 +46,6 @@ Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conce
   3. Uso
     --> Use o Insomnia ou Postman para testar os endpoints da API (GET, POST, PUT, DELETE, PATCH).
 
-## ⚙️ Tecnologias
-Esse projeto foi desenvolvido usando as seguintes tecnologias:
-
-- Node.js
-- JavaScript (ES6+)
-- GIT E Github
-
 ## 🛠️ Testes da API com Insomnia
 --> Localize o arquivo de coleção, "Insomnia_Collection_Tickets.json".
 
@@ -61,6 +54,13 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 --> Selecione o arquivo "Insomnia_Collection_Tickets.json".
 
 --> odas as requisições na coleção estão configuradas para a URL padrão: http://localhost:[Sua Porta].
+
+## ⚙️ Tecnologias
+Esse projeto foi desenvolvido usando as seguintes tecnologias:
+
+- Node.js
+- JavaScript (ES6+)
+- GIT E Github
 
 ## 🏷️ Layout
 Você pode visualizar o layout do projeto através [desse link](https://efficient-sloth-d85.notion.site/API-de-ticket-de-suporte-25654d26e5704936a5da1b3083f03c27).
