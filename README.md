@@ -22,7 +22,6 @@ Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conce
 
 ## 💻 Estrutura do Projeto
   SUPPORT-TICKETS-PROJECT
-  hadirday_project
   ├── node_modules/         # Dependências (ignorado pelo Git)
   ├── src/                  # Código fonte do backend
   ├── .gitignore
