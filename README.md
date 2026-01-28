@@ -67,9 +67,9 @@ Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conce
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
 - Node.js
-- 
+  
 - JavaScript (ES6+)
-- 
+  
 - GIT E Github
 
 ## 🏷️ Layout
