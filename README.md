@@ -1,5 +1,6 @@
 ## 👩‍💻 Aprendizados
 Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conceitos fundamentais para projetos web backend. Alguns dos principais aprendizados incluem:
+
   --> 1. Servidor HTTP de Baixo Nível:
   Fundamentos do Protocolo: Entendimento prático de como o módulo nativo http lida com sockets, streams e como processar manualmente as requisições (req) e respostas (res).
 
@@ -22,15 +23,23 @@ Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conce
 
 ## 💻 Estrutura do Projeto
   SUPPORT-TICKETS-PROJECT
+  
   ├── node_modules/         # Dependências (ignorado pelo Git)
+  
   ├── src/                  # Código fonte do backend
+  
   ├── .gitignore
+  
   ├── package-lock.json
+  
   └── README.md
 
 ## 💾 Pré Requisitos
+
   --> Node.js (versão [v22.17.0])
+  
   --> npm ou yarn (Gerenciador de pacotes)
+  
   --> **Insomnia** ou Postman (Para testar os endpoints da API)
 
 ## 🚀 Como Rodar
@@ -58,7 +67,9 @@ Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conce
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
 - Node.js
+- 
 - JavaScript (ES6+)
+- 
 - GIT E Github
 
 ## 🏷️ Layout
