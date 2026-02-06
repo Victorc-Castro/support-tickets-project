@@ -2,27 +2,31 @@
 
 [🇺🇸 Read this documentation in English](./README.md)
 
-Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conceitos fundamentais para projetos web backend. Alguns dos principais aprendizados incluem:
+Durante o desenvolvimento do "Support Tickets", explorei e apliquei diversos conceitos fundamentais para projetos de backend, focando na construção de um servidor do zero (from scratch). Os principais aprendizados incluem:
 
-  --> 1. Servidor HTTP de Baixo Nível:
-  Fundamentos do Protocolo: Entendimento prático de como o módulo nativo http lida com sockets, streams e como processar manualmente as requisições (req) e respostas (res).
+Servidor HTTP de Baixo Nível:
 
-  Roteamento Manual: Implementação de um roteador personalizado que lida com o método HTTP e a URL (req.url), permitindo o mapeamento exato para as funções de controller responsáveis pelo CRUD.
+--> Fundamentos do Protocolo: Entendimento prático de como o módulo nativo http lida com sockets e streams, incluindo o processamento manual de requisições (req) e respostas (res).
 
-  --> 2. Arquitetura de Middlewares:
-  Criação de Pipeline: Construção de uma cadeia de middlewares (funções que processam a requisição antes do controller). Isso inclui a implementação manual de um Body Parser para ler o payload JSON de requisições POST e PUT.
+--> Roteamento Personalizado: Implementação de um roteador manual que processa métodos HTTP e URLs (req.url), mapeando-os diretamente para as funções controladoras (controllers).
 
-  Separação de Preocupações: Uso de middlewares para isolar responsabilidades cruciais, como tratamento de erros e validação inicial de dados.
-  
-  --> 3. Modularização e Organização do Código:
-  Uso de Módulos ES6: Prática da divisão de código em arquivos lógicos separados (controllers, services, etc.) utilizando a sintaxe import e export, garantindo que o projeto fosse escalável e fácil de navegar.
+Arquitetura de Middlewares:
 
-  Padrão RESTful: Reforço na compreensão de como mapear verbos HTTP (GET, POST, PUT, PATCH, DELETE) para as operações de gerenciamento de recursos (Tickets).
-  
-  --> 4. Utilização de Módulos Nativos Essenciais:
-  Manipulação de Arquivos (fs): Utilização do módulo fs para simular o armazenamento de dados (ou para fins de log), consolidando a leitura e escrita assíncrona.
+--> Construção de Pipeline: Criação de uma cadeia de middlewares para processar a requisição antes que ela chegue ao controller. Isso inclui a implementação manual de um Body Parser para lidar com payloads JSON em requisições POST e PUT.
 
-  Criptografia e IDs (crypto): Uso do módulo crypto para gerar identificadores únicos (UUIDs) para cada ticket, um requisito essencial em qualquer sistema de gerenciamento de dados.
+--> Separação de Preocupações: Uso de middlewares para isolar responsabilidades cruciais, como tratamento de erros e validação inicial de dados.
+
+Modularização e Organização de Código:
+
+--> Módulos ES6: Divisão do código em arquivos lógicos (controllers, services, etc.) utilizando a sintaxe import/export, garantindo que o projeto seja escalável e de fácil navegação.
+
+--> Padrões RESTful: Reforço na compreensão do mapeamento de verbos HTTP (GET, POST, PUT, PATCH, DELETE) para operações de gerenciamento de recursos.
+
+Módulos Nativos Essenciais:
+
+--> File System (fs): Utilização do módulo fs para persistência de dados assíncrona e logs.
+
+--> Crypto e IDs: Uso do módulo crypto para gerar identificadores únicos (UUIDs), seguindo as boas práticas de segurança para o gerenciamento de dados.
 
 ## 💻 Estrutura do Projeto
   SUPPORT-TICKETS-PROJECT
