@@ -1,4 +1,7 @@
 ## 👩‍💻 Aprendizados
+
+[🇺🇸 Read this documentation in English](./README.md)
+
 Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conceitos fundamentais para projetos web backend. Alguns dos principais aprendizados incluem:
 
   --> 1. Servidor HTTP de Baixo Nível:
@@ -29,10 +32,14 @@ Durante o desenvolvimento do "Support Tickets", aprendi e apliquei vários conce
   ├── src/                  # Código fonte do backend
   
   ├── .gitignore
+
+  ├── Insomnia_Collection_Tickets.json.yaml
+
+  ├── README.md
+
+  ├── README.pt-BR.md
   
-  ├── package-lock.json
-  
-  └── README.md
+  └──  package-lock.json
 
 ## 💾 Pré Requisitos
 
