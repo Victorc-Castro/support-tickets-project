@@ -80,7 +80,3 @@ This project was built using:
 --> JavaScript (ES6+)
 
 --> Git & GitHub
-
-## 🏷️ Layout
-
---> You can view the project layout through [this link].
