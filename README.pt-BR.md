@@ -82,6 +82,3 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 - JavaScript (ES6+)
   
 - GIT E Github
-
-## 🏷️ Layout
-Você pode visualizar o layout do projeto através [desse link](https://efficient-sloth-d85.notion.site/API-de-ticket-de-suporte-25654d26e5704936a5da1b3083f03c27).
