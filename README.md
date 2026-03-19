@@ -31,7 +31,7 @@ Essential Native Modules:
 ## 💻 Project Structure
 SUPPORT-TICKETS-PROJECT 
 
-├── node_modules/ # Dependencies (Git ignored) 
+├── node_modules/ #Dependencies (Git ignored) 
 
 ├── src/ # Backend source code 
 
